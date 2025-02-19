@@ -13,5 +13,6 @@ rm -rf ~/catkin_ws/src/config/`
 
 3. Create a symlink from this scenario to the config directory:
 ```bash
-cd ~/<location>/eros_dev_app/scenarios/
+cd ~/catkin_ws/src/
+ln ~/<location>/eros_dev_app/scenarios/<scenario>/ config
 ```
