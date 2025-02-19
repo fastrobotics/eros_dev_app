@@ -11,7 +11,7 @@
                     <arg name="robot_namespace" value="$(arg robot_namespace)"/>
                 </include>
                 <include file="$(find config)/launch/NodeLaunch/Snapshot_Node_Master.launch"> 
-                <arg name="robot_namespace" value="$(arg robot_namespace)"/>
+                    <arg name="robot_namespace" value="$(arg robot_namespace)"/>
                 </include> 
                 <include file="$(find config)/launch/NodeLaunch/DataLogger_Node.launch"> 
                     <arg name="robot_namespace" value="$(arg robot_namespace)"/>
@@ -31,6 +31,9 @@
                 <include file="$(find config)/launch/NodeLaunch/Master_Node.launch">
                     <arg name="robot_namespace" value="$(arg robot_namespace)"/>
                 </include>
+                 <include file="$(find config)/launch/NodeLaunch/Snapshot_Node_Slave.launch"> 
+                    <arg name="robot_namespace" value="$(arg robot_namespace)"/>
+                </include> 
             </group>
             <include file="$(find config)/launch/NodeLaunch/GPS_Hat_Node.launch"> 
                     <arg name="robot_namespace" value="$(arg robot_namespace)"/>
