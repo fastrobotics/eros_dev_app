@@ -1,4 +1,6 @@
 # EROS Dev App
+## Overview
+This repo serves as a template for a typical development app that uses eROS content.
 
 ## Setup
 ### Scenario Management
