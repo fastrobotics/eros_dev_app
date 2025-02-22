@@ -53,7 +53,7 @@ Visualization Manager:
       Plane Cell Count: 100
       Reference Frame: <Fixed Frame>
       Value: true
-    - Angle Tolerance: 0.10000000149011612
+    - Angle Tolerance: 0
       Class: rviz/Odometry
       Covariance:
         Orientation:
@@ -65,15 +65,15 @@ Visualization Manager:
           Scale: 1
           Value: true
         Position:
-          Alpha: 0.10000000149011612
+          Alpha: 0.007499999832361937
           Color: 204; 51; 204
           Scale: 1
           Value: true
         Value: true
       Enabled: true
-      Keep: 20
+      Keep: 100
       Name: Odometry
-      Position Tolerance: 0.10000000149011612
+      Position Tolerance: 0
       Queue Size: 10
       Shape:
         Alpha: 1
@@ -116,7 +116,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 20.226898193359375
+      Distance: 30.418941497802734
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -124,17 +124,17 @@ Visualization Manager:
         Value: false
       Field of View: 0.7853981852531433
       Focal Point:
-        X: -0.5780724883079529
-        Y: 1.8135970830917358
-        Z: -7.110804080963135
+        X: -0.4462848901748657
+        Y: 0.38073867559432983
+        Z: -6.796412467956543
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.779796838760376
+      Pitch: 0.8697967529296875
       Target Frame: <Fixed Frame>
-      Yaw: 0.23040300607681274
+      Yaw: 6.078579902648926
     Saved: ~
 Window Geometry:
   Displays:
