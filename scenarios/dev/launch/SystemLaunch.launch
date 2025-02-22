@@ -26,6 +26,7 @@
             </include>
         </group>   <!-- EndGroup for DevComputer2--> 
         <group  if="$(eval device_hostname == 'ComputeModule1')">
+            <node pkg="tf2_ros" type="static_transform_publisher" name="utm_map_broadcaster" args="267113.6574648176 4534841.773407895 0 0 0 0 1 utm map" />
             <group ns="$(arg device_hostname)">
                 
                 <include file="$(find config)/launch/NodeLaunch/Master_Node.launch">
